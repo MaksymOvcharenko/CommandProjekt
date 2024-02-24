@@ -1,0 +1,24 @@
+.images-img,
+.images-bg {
+  display: flex;
+  gap: 24px;
+}
+
+.images-bg div {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+
+.images-bg div:nth-child(1) {
+  background-image: url(../img/vite-logo.png);
+}
+
+.images-bg div:nth-child(2) {
+  background-image: url(./img/vite-logo.png);
+}
+
+.images-bg div:nth-child(3) {
+  background-image: url(/img/vite-logo.png);
+}
