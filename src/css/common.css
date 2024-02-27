@@ -23,10 +23,14 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
 @media screen and (min-width: 1280) {
   .container {
     max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
