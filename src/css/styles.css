@@ -6,8 +6,10 @@
 */
 @import url('./common.css');
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
-@import url('./test-text.css');
-@import url('./section-images.css');
+@import url('./hero.css');
+@import url('./works.css');
+@import url('./advertisement.css');
+@import url('./rewiews.css');
+@import url('./order.css');
 @import url('./footer.css');
