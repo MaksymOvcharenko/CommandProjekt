@@ -1,5 +1,5 @@
-:root {
-}
+/* :root {
+} */
 body {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
@@ -12,6 +12,26 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 @media screen and (min-width: 375px) {
