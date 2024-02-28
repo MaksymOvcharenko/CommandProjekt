@@ -1,4 +1,4 @@
-.container {
+.veg-con {
   background-color: #7a3145;
 }
 
@@ -30,6 +30,7 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
 }
+
 .veg-info {
   padding-bottom: 40px;
   color: #fbfbfb;
@@ -43,11 +44,15 @@
 .veg-list {
   display: flex;
   flex-direction: column;
-}
-.veg-item {
   gap: 20px 0px;
 }
-
+.veg-card {
+  background-color: #fbfbfb;
+  border-radius: 40px;
+  padding: 32px 26px;
+  display: flex;
+  flex-direction: column;
+}
 .veg-subtitle {
   color: #7a3145;
   font-family: 'Inter Tight';
@@ -55,8 +60,8 @@
   font-style: normal;
   font-weight: 600;
   line-height: 1;
+
   letter-spacing: -0.01em;
-  background-color: #fbfbfb;
 }
 
 .veg-price {
