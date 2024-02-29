@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   max-width: 335px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: #fbfbfb;
   font-size: 48px;
   line-height: 1.04;
@@ -28,7 +28,7 @@
   text-transform: uppercase;
 }
 .veg-info {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
   color: #fbfbfb;
   max-width: 335px;
   font-size: 14px;
@@ -50,6 +50,7 @@
 .veg-subtitle {
   color: #7a3145;
   font-size: 28px;
+  margin-bottom: 12px;
   line-height: 1;
   letter-spacing: -0.01em;
 }
@@ -73,13 +74,14 @@
     font-size: 64px;
     line-height: 1;
     max-width: 508px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
   }
   .veg {
     font-size: 64px;
     line-height: 1;
   }
   .veg-info {
+    margin-bottom: 50px;
     max-width: 626px;
     font-size: 16px;
     line-height: 1.2;
