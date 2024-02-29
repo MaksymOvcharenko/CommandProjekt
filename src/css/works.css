@@ -1,11 +1,12 @@
-/*.works .container {
+.works .container {
   padding: 0;
-}*/
+}
 
 .works {
   display: flex;
   flex-direction: column;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -24,9 +25,10 @@
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
-  height: 450px;
+  height: 530px;
   background-color: #7a3145;
 }
+
 .image-container {
   position: relative;
   width: 100%;
@@ -34,6 +36,7 @@
   overflow: hidden;
   border-radius: 30px;
 }
+
 .image-overlay {
   position: absolute;
   top: 0;
@@ -44,7 +47,6 @@
 }
 
 .works-image {
-  max-width: 335px;
   border-radius: 30px;
   height: 100%;
 }
@@ -55,7 +57,7 @@
   background-color: #576f35;
   background-size: 375px;
   height: 654px;
-  padding: 80px 0;
+  padding: 80px 20px;
 }
 
 .works-title {
@@ -85,6 +87,7 @@
 .works-order-list {
   padding-inline-start: 0;
   list-style: none;
+  margin: 0;
 }
 
 .works-order-steps {
@@ -141,28 +144,34 @@
     padding: 0;
   }
 }
+
 @media screen and (min-width: 768px) {
   .image-box {
     padding: 100px 64px;
     width: 768px;
     height: 840px;
   }
+
   .works-image {
     width: 640px;
   }
+
   .works-order {
     padding: 100px 159px;
+    height: 699px;
   }
+
   .works-title {
     margin-bottom: 25px;
     width: 450px;
     font-size: 32px;
   }
+
   .works-text {
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 50px;
-    max-width: 450px;
+    width: 450px;
   }
 
   .works-order-steps {
@@ -172,28 +181,33 @@
   .works-order-steps:not(:last-child) {
     margin-bottom: 20px;
   }
+
   .works-order-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.6);
-    max-width: 325px;
+    width: 325px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .work {
     display: flex;
     flex-direction: row;
   }
+
   .image-box {
     padding: 100px;
     max-width: 630px;
     height: 759px;
   }
+
   .works-image {
     width: 430px;
   }
+
   .works-order {
     padding: 100px 100px 160px 100px;
     max-width: 650px;
