@@ -1,5 +1,5 @@
 /*.works .container {
-  background-color: darkgoldenrod;
+  padding: 0;
 }*/
 
 .works {
@@ -55,7 +55,7 @@
   background-color: #576f35;
   background-size: 375px;
   height: 654px;
-  padding: 80px 20px;
+  padding: 80px 0;
 }
 
 .works-title {
@@ -83,6 +83,7 @@
 }
 
 .works-order-list {
+  padding-inline-start: 0;
   list-style: none;
 }
 
@@ -135,6 +136,11 @@
   color: #141414;
 }
 
+@media screen and (min-width: 375px) {
+  .works .container {
+    padding: 0;
+  }
+}
 @media screen and (min-width: 768px) {
   .image-box {
     padding: 100px 64px;
@@ -176,7 +182,8 @@
   }
 }
 @media screen and (min-width: 1280px) {
-  .works {
+  .work {
+    display: flex;
     flex-direction: row;
   }
   .image-box {
