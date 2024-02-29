@@ -10,12 +10,35 @@ background-color: green;
   margin: auto;
 } 
 
-.footer-container{
-
-}
 .footer-text{
 font-weight: 500;
 font-size: 14px;
-line-height: 129%; 
+line-height: 1.14; 
+letter-spacing: 0.02em;
 color: #fbfbfb;
-}  
+} 
+.footer-menu-list{
+display: flex;
+justify-content: left;
+gap: 14px;
+} 
+.footer-item{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+}
+.footer-contacts-link{
+ margin-right: auto;
+ font-style: normal; 
+}
+.footer-list-link{
+ font-weight: 600;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.01em;
+  color: #fbfbfb;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
