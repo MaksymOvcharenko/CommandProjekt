@@ -1,24 +1,31 @@
 .footer .container{
-background-color: green;
+padding: 0;
 } 
 .footer{
   background: #7a3145;
+  height: 520px;
   width: 320px;
   flex-direction: column;
   justify-content: left;
   padding: 40px 20px;
   margin: auto;
 } 
-
+.footer-logo{
+padding-top: 40px;
+margin: auto;
+}
 .footer-text{
+padding-top: 14px;
+margin-right: 20px;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14; 
+line-height: 1.17; 
 letter-spacing: 0.02em;
 color: #fbfbfb;
 } 
 .footer-menu-list{
-display: flex;
+/*display: flex;*/
+padding-top: 40px;
 justify-content: left;
 gap: 14px;
 } 
@@ -30,8 +37,11 @@ gap: 14px;
   color: #fbfbfb;
 }
 .footer-contacts-link{
+  min-width: 215px;
  margin-right: auto;
  font-style: normal; 
+ padding-top: 40px;
+
 }
 .footer-list-link{
  font-weight: 600;
@@ -40,5 +50,30 @@ gap: 14px;
   letter-spacing: -0.01em;
   color: #fbfbfb;
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+.footer--list-address{
+  max-width: 179px;
+padding-top: 14px;
+}
+.footer-privacy{
+  display: flex;
+  /*width: 115px;*/
+  height: 16px;
+  gap: 10px;
+ margin-top: 40px;
+}
+.footer-policy{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+}
+.footer-privacy-policy{
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
 }
 
