@@ -1,69 +1,72 @@
 <section class="works" id="works">
-  <div class="container">
+  <div class="conteiner">
     <h1 class="visually-hidden">Our Works</h1>
     <div class="image-box">
-      <picture class="works-image">
-        <source
-          media="min-width: 320px"
-          srcset="
-            /img/works/Rectangle-mob-1x.jpg,
-            /img/works/Rectangle-mob-2x.jpg
-          "
-        />
-        <source
-          media="min-width: 768px"
-          srcset="/img/works/tab-1x.jpg, ./img/works/tab-2x.jpg"
-        />
-        <source
-          media="min-width: 1280px"
-          srcset="
-            /img/works/Rectangle-decst-1x.jpg,
-            /img/works/Rectangle-decst-2x.jpg
-          "
-        />
-        <img
-          src="/img/works/tab-1x.jpg"
-          width="335px"
-          alt="Prepare vegetables"
-        />
-      </picture>
+      <div class="image-container">
+        <div class="image-overlay"></div>
+        <picture class="works-image">
+          <source
+            media="max-width: 375px"
+            srcset="
+              /img/works/Rectangle-mob-1x.jpg,
+              /img/works/Rectangle-mob-2x.jpg
+            "
+          />
+          <source
+            media="min-width: 768px"
+            srcset="/img/works/tab-1x.jpg, /img/works/tab-2x.jpg"
+          />
+          <source
+            media="min-width: 1280px"
+            srcset="
+              /img/works/Rectangle-decst-1x.jpg,
+              /img/works/Rectangle-decst-2x.jpg
+            "
+          />
+          <img
+            src="../img/works/tab-1x.jpg"
+            width="335px"
+            alt="Prepare vegetables"
+          />
+        </picture>
+      </div>
     </div>
-    <div class="works-order">
-      <h2 class="works-title">
-        To order your <span class="works-title-accent">vegetable</span> basket,
-        simply follow these <span class="works-title-accent">easy steps</span>
-      </h2>
-      <p class="works-text">
-        Our baskets are assembled with care and delivered straight to your
-        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
-        your home.
-      </p>
-      <ol class="works-order-list">
-        <li class="works-order-steps">
-          <!--<p class="works-order-number">1</p>-->
-          <p class="works-order-text">
-            Just choose
-            <span class="works-order-text-accent">the vegetable</span> you want
-            to order by clicking on the checkboxes
-            <span class="works-order-text-accent">next to it.</span>
-          </p>
-        </li>
-        <li class="works-order-steps">
-          <!--<p class="works-order-number">2</p>-->
-          <p class="works-order-text">
-            Click on <span class="works-order-text-accent">the basket</span> and
-            fill out the form.
-          </p>
-        </li>
-        <li class="works-order-steps">
-          <!--<p class="works-order-number">3</p>-->
-          <p class="works-order-text">
-            Sit back and relax! Your
-            <span class="works-order-text-accent">fresh vegetables</span> basket
-            will be delivered.
-          </p>
-        </li>
-      </ol>
-    </div>
+    <d class="works-order">      
+        <h2 class="works-title">
+          To order your
+          <span class="works-title-accent">vegetable</span> basket, simply
+          follow these <span class="works-title-accent">easy steps</span>
+        </h2>
+        <p class="works-text">
+          Our baskets are assembled with care and delivered straight to your
+          doorstep, so you can enjoy the taste of fresh fruit without ever
+          leaving your home.
+        </p>     
+      
+        <ol class="works-order-list">
+          <li class="works-order-steps">
+            <p class="works-order-text">
+              Just choose
+              <span class="works-order-text-accent">the vegetable</span> you
+              want to order by clicking on the checkboxes
+              <span class="works-order-text-accent">next to it.</span>
+            </p>
+          </li>
+          <li class="works-order-steps">
+            <p class="works-order-text">
+              Click on
+              <span class="works-order-text-accent">the basket</span> and fill
+              out the form.
+            </p>
+          </li>
+          <li class="works-order-steps">
+            <p class="works-order-text">
+              Sit back and relax! Your
+              <span class="works-order-text-accent">fresh vegetables</span>
+              basket will be delivered.
+            </p>
+          </li>
+        </ol>
+      </div>
   </div>
 </section>
