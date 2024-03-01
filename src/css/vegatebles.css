@@ -93,7 +93,7 @@
     max-width: 342px;
   }
   .veg-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 20px) / 2);
   }
   .veg-subtitle {
     font-size: 32px;
@@ -108,7 +108,7 @@
   }
 
   .veg-item {
-    width: calc((100% - 49px) / 3);
+    width: calc((100% - 42px) / 3);
   }
   .veg-list {
     gap: 28px 21px;
