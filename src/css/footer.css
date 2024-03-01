@@ -4,7 +4,7 @@ padding: 0;
 .footer{
   background: #7a3145;
   height: 520px;
-  width: 320px;
+  width: 100%;
   flex-direction: column;
   justify-content: left;
   padding: 40px 20px;
@@ -15,7 +15,7 @@ padding: 0;
 }
 .footer-logo{
 padding-top: 40px;
-/*margin: auto;*/
+margin: auto;
 }
 .footer-logo-icon{
  fill: #fbfbfb;
@@ -31,7 +31,7 @@ letter-spacing: 0.02em;
 color: #fbfbfb;
 } 
 .footer-menu{
-margin-left: 32px;
+/*margin-left: 32px;*/
 }
 .footer-menu-list{
 /*display: flex;*/
@@ -101,20 +101,17 @@ padding-top: 14px;
  min-width: 768px;
  padding: 32px;
  margin: auto;
+
  }
-}
+
 .footer{
 display: flex;
 flex-direction: row;
 width: 100%;
 }
-.footer-container{
-  margin-left: 32px;
-  margin-right: 0;
-}
 .footer-logo{
   padding-top: 32px;
-  margin-left: 32px;
+
 }
 .footer-text{
   width: 265px;
@@ -123,7 +120,7 @@ width: 100%;
 .footer-menu{
   margin-right: auto;
 }
-
+}
 /*-----------------------*/
 /**--------desktop---------*/
 @media screen and(min-width: 1280px) {
