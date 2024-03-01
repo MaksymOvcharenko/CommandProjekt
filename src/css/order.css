@@ -7,7 +7,6 @@
 }
 
 .order-title {
-  font-family: Inter Tight;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.08;
@@ -18,17 +17,14 @@
   padding: 0;
   margin-bottom: 29px;
 }
+
 .title-harvest{
   color: rgba(251, 251, 251, 0.3);
 }
 
 .text-discribe{
-  color: rgb(251, 251, 251);
-  font-family: Inter Tight;
   font-size: 14px;
-  font-weight: 500;
-  line-height: 1.29;
-  letter-spacing: 0%;
+  line-height: 1.29; 
   text-align: left;
   max-width: 335px;
   margin-bottom: 40px;
@@ -42,12 +38,11 @@
   flex-direction: column;
   align-items: center;
   max-width: 335px;
-  
+  margin-bottom: 20px; 
 }
 
 .title-form{
   color: rgb(20, 20, 20);
-  font-family: Inter Tight;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.08;
@@ -58,7 +53,7 @@
 }
 
 .form-us{
-color: rgb(122, 49, 69);
+  color: rgb(122, 49, 69);
 }
 
 .the-form{
@@ -68,7 +63,6 @@ color: rgb(122, 49, 69);
   .info-input{
     width: 100%;
     height: 46px;
-    padding: 14 auto;
     padding-left: 16px;
     box-sizing: border-box;
     border: 1px solid rgba(20, 20, 20, 0.2);
@@ -79,11 +73,10 @@ color: rgb(122, 49, 69);
 
   .info-input::placeholder{
     color: rgb(20, 20, 20);
-    font-family: Inter Tight;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.29;
-  letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
   }
 
   .textarea-input{
@@ -95,16 +88,16 @@ color: rgb(122, 49, 69);
     border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 15px;
     outline: none;
+    display: block;
 
   }
 
   .textarea-input::placeholder{
     color: rgb(20, 20, 20);
-    font-family: Inter Tight;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.29;
-  letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
   }
   .input-text{
     margin-bottom: 15px;
@@ -157,12 +150,10 @@ color: rgb(122, 49, 69);
   min-width: 200px;
   height: 50px;
   color: rgb(251, 251, 251);
-  font-family: Inter Tight;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.29;
   letter-spacing: -0.01em;
-  text-align: left;
   text-transform: uppercase;
   cursor: pointer;
   border-radius: 30px;
@@ -171,6 +162,7 @@ color: rgb(122, 49, 69);
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  padding: 0;
 }
 
 .order-form{
@@ -182,7 +174,6 @@ color: rgb(122, 49, 69);
   flex-direction: column;
   border-radius: 30px;
   background: rgb(87, 111, 53);
-  margin-top: 20px;
   padding: 40px 20px;
 }
 
@@ -191,7 +182,7 @@ color: rgb(122, 49, 69);
 background: rgba(20, 20, 20, 0.3);
 margin-left: auto;
 margin-right: auto;
-
+margin-bottom: 20px;
 }
 
 .links-block{
@@ -204,27 +195,154 @@ margin-right: auto;
   display: flex;
   flex-direction: row;
   gap: 8px;
-  margin-top: 14px;
-  flex-wrap: wrap;
-  
+  flex-wrap: wrap; 
 }
 
 .soc-net{
   color: rgba(251, 251, 251, 0.5);
-  font-family: Inter Tight;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.29;
   letter-spacing: -0.01em;
-  
-  margin-top: 20px;
+  margin-bottom: 14px;
 }
 
 .inst-fac-yout, .slash{
-  color: rgb(251, 251, 251);
-font-family: Inter Tight;
 font-size: 24px;
 font-weight: 600;
 line-height: 1.08;
 letter-spacing: -0.01em;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .order .container {
+    padding-top: 100px;
+  }
+
+  .order-title {
+    text-align: left;
+    max-width: 640px;
+    margin-bottom: 25px;
+    font-size: 64px;
+    line-height: 1;
+  }
+
+  .text-discribe{
+    font-size: 16px;
+    line-height: 1.25; 
+    max-width: 640px;
+    margin-bottom: 50px;
+  }
+
+  .order-div{
+    padding: 50px 100px 50px 100px;
+    max-width: 628px; 
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .title-form{
+    font-size: 24px;
+    margin-bottom: 50px;
+    max-width: 428px;
+  }
+
+  .info-input{
+    height: 52px;
+  }
+
+  .info-input::placeholder{
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  
+  .textarea{
+    margin-bottom: 25px;
+  }
+  .textarea-input{
+    height: 95px;
+  }
+
+  .order-links{
+    padding: 50px 50px;
+    max-width: 628px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img-order{
+    width: 528px;
+    margin-bottom: 50px;
+  }
+
+  .send-button{
+    height: 52px;
+  }
+
+  .soc-links-follow{
+    gap: 12px;
+    flex-wrap: wrap; 
+  }
+  
+  .soc-net{
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 15px;
+  }
+
+  .inst-fac-yout, .slash{
+    font-size: 32px;
+    line-height: 1;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1280px) {
+  
+  .order .container {
+    padding: 100px;
+  }
+
+  .order-title {
+    max-width: 751px;
+  }
+
+  .text-discribe{
+    max-width: 742px;
+  }
+
+  .order-form{
+    max-width: 429px;
+  }
+
+  .order-div-links{
+    display: flex;
+    gap:24px;
+  }
+
+  .order-div{
+    padding: 50px;
+    width: 529px; 
+    margin:0;
+  }
+  
+
+  .order-links{
+    max-width: 528px;
+    margin: 0;
+  }
+
+  .img-order{
+    width: 427px;
+  }
+
+  .soc-links-follow{
+    gap: 12px;
+    max-width: 357px;
+  }
+
 }
