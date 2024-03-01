@@ -25,6 +25,7 @@
   justify-content: center;
   align-items: center;
   padding: 40px 20px;
+  width: 320px;
   height: 530px;
   background-color: #7a3145;
 }
@@ -55,7 +56,7 @@
   display: flex;
   flex-direction: column;
   background-color: #576f35;
-  background-size: 375px;
+  max-width: 320px;
   height: 654px;
   padding: 80px 20px;
 }
@@ -68,7 +69,6 @@
   text-transform: uppercase;
   color: #fbfbfb;
   margin-bottom: 20px;
-  width: 335px;
 }
 
 .works-title-accent {
@@ -81,7 +81,6 @@
   line-height: 1.29;
   color: #fbfbfb;
   margin-bottom: 40px;
-  width: 335px;
 }
 
 .works-order-list {
@@ -98,7 +97,6 @@
   gap: 24px;
   border-radius: 15px;
   padding: 12px 24px;
-  width: 335px;
   height: 76px;
   background-color: #fbfbfb;
   counter-increment: number;
@@ -143,6 +141,12 @@
   .works .container {
     padding: 0;
   }
+  .image-box {
+    width: 375px;
+  }
+  .works-order {
+    min-width: 375px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -159,6 +163,7 @@
   .works-order {
     padding: 100px 159px;
     height: 699px;
+    max-width: 768px;
   }
 
   .works-title {
