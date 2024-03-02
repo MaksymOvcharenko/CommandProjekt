@@ -19,8 +19,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" crossorigin src="/CommandProjekt/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/CommandProjekt/assets/index-f8748245.css">
+    <link rel="stylesheet" href="/CommandProjekt/assets/index-88ff6d0d.css">
   </head>
   <body>
     <header class="header">
@@ -232,41 +238,71 @@
   </div>
 </section>
 
-    <section class="reviews" id="reviews">
-  <div class="container reviews-wrap">
-    <div class="reviews-description">
-    <h2 class="reviews-title">Reviews from our <span class="reviews-title-span">customers</span></h2>
-    <p class="reviews-text">Words of our customers: impressions and opinions about the quality of our services and the freshness of our products.</p>
-    </div>
-    <ul class="reviews-list">
-      <li class="reviews-item">
-        <img class="reviews-img" src="/CommandProjekt/assets/customer-1-02f6d0bb.png" 
-        srcset="/CommandProjekt/assets/customer-1-02f6d0bb.png 1x, /CommandProjekt/assets/customer-1-2x-49eb7a8d.png 2x" 
-        alt="John Wax" width="56" height="56">
-        <div class="customer">
-          <h3 class="customer-name">John Wax</h3>
-          <p class="customer-text">These vegetables are my secret to delicious and healthy meals. The quality is always at the highest level, the aroma and
-          taste are enchanting. I advise every fan of real products!</p>
+    <section class="rewiews" id="rewiews">
+  <div class="reviews-header">
+    <h2 class="reviews-title">
+      Reviews from our <span class="reviews-title-span">customers</span>
+    </h2>
+    <p class="reviews-description">
+      Words of our customers: impressions and opinions about the quality of our
+      services and the freshness of our products.
+    </p>
+  </div>
+
+  <div class="containers1 swiper-container 34">
+    <ul class="slider-list swiper-wrapper">
+      <li class="slider-item swiper-slide">
+        <div class="card">
+          <img
+            class="reviews-img"
+            src="/CommandProjekt/assets/customer-1-02f6d0bb.png"
+            srcset="/CommandProjekt/assets/customer-1-02f6d0bb.png 1x, /CommandProjekt/assets/customer-1-2x-49eb7a8d.png 2x"
+            alt="John Wax"
+            width="56"
+            height="56"
+          />
+          <h2 class="card-title">John Wax</h2>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec
+            odio. Praesent libero.
+          </p>
         </div>
       </li>
-      <li class="reviews-item">
-        <img class="reviews-img" src="/CommandProjekt/assets/customer-2-db6c6ab9.png"
-        srcset="/CommandProjekt/assets/customer-2-db6c6ab9.png 1x, /CommandProjekt/assets/customer-2-2x-fb62b7c4.png 2x" 
-        alt="Victoria Romashenko" width="56" height="56">
-        <div class="customer">
-          <h3 class="customer-name">Victoria Romashenko</h3>
-          <p class="customer-text">I love how fast and fresh the vegetables are delivered. Salads always turn out so appetizing, and soups are real
-          masterpieces. The quality is impeccable!</p>
+      <li class="slider-item swiper-slide">
+        <div class="card">
+          <img
+            class="reviews-img"
+            src="/CommandProjekt/assets/customer-2-db6c6ab9.png"
+            srcset="/CommandProjekt/assets/customer-2-db6c6ab9.png 1x, /CommandProjekt/assets/customer-2-2x-fb62b7c4.png 2x"
+            alt="Victoria Romashenko"
+            width="56"
+            height="56"
+          />
+          <h2 class="card-title">Victoria Romashenko</h2>
+          <p class="card-text">
+            Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh
+            elementum imperdiet.
+          </p>
+        </div>
       </li>
-      <li class="reviews-item">
-        <img class="reviews-img" src="/CommandProjekt/assets/customer-3-d94c782b.png"
-        srcset="/CommandProjekt/assets/customer-3-d94c782b.png 1x, /CommandProjekt/assets/customer-3-2x-a4df8ddb.png 2x" 
-        alt="Ihor Trachuk" width="56" height="56">
-        <div class="customer">
-          <h3 class="customer-name">Ihor Trachuk</h3>
-          <p class="customer-text">Recently tried my fresh tomatoes and peppers - amazing! The authenticity of the taste, as if from the garden directly to
-          my table. It is now my main vegetable supplier.</p>
+      <li class="slider-item swiper-slide">
+        <div class="card">
+          <img
+            class="reviews-img"
+            src="/CommandProjekt/assets/customer-3-d94c782b.png"
+            srcset="/CommandProjekt/assets/customer-3-d94c782b.png 1x, /CommandProjekt/assets/customer-3-2x-a4df8ddb.png 2x"
+            alt="Ihor Trachuk"
+            width="56"
+            height="56"
+          />
+          <h2 class="card-title">Ihor Trachuk</h2>
+          <p class="card-text">
+            Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh
+            elementum imperdiet.
+          </p>
+        </div>
       </li>
+      <!-- Добавьте другие элементы слайдера здесь -->
     </ul>
   </div>
 </section>
