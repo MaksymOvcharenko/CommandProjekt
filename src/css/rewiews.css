@@ -1,178 +1,141 @@
-.reviews {
-  max-width: 375px;
+.rewiews {
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin: 0 auto;
 }
 
-.reviews-wrap {
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.reviews-description {
-  width: 335px;
-  height: 100%;
+.reviews-header {
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 375px;
+  margin: 0 auto;
   margin-bottom: 40px;
 }
 
 .reviews-title {
+  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
   font-size: 48px;
-  line-height: 1.04;
+  line-height: 104%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .reviews-title-span {
   color: #576f35;
 }
 
-.reviews-text {
+.reviews-description {
+  font-family: 'Inter Tight', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.29;
+  line-height: 129%;
   color: #141414;
 }
 
-.reviews-list {
-  display: flex;
-  flex-wrap: wrap;
+.containers1 {
+  display: flex; /* Делаем контейнер флексом */
+  overflow: hidden; /* Скрываем все, что выходит за его пределы */
+  justify-content: center; /* Выравниваем контейнеры по горизонтали */
 }
 
-.reviews-item:last-child,
-.reviews-item:nth-child(2n) {
-  display: none;
-} 
+.slider-list {
+  list-style: none;
+  display: flex; /* Делаем список флексом */
+  transition: transform 0.5s ease; /* Добавляем плавное переключение */
+}
 
-.reviews-item {
-  position: relative;
-  max-width: 100%;
-  padding: 20px 16px;
+.slider-item {
+  /* width: 335px;
+  height: 238px; */
+}
+
+.card {
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
+  padding: 20px 16px;
+  width: 335px;
+  height: 238px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-grow: 1;
+  align-self: center;
+  margin: 0 auto;
 }
 
-.reviews-img {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+.card-image {
+  border-radius: 100px;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 24px;
 }
 
-.customer {
-  padding: 100px 16px 38px 16px;
-  width: 302px;
-}
-
-.customer-name {
+.card-title {
+  font-size: 20px;
+  font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 18px;
+  line-height: 110%;
   letter-spacing: -0.02em;
   text-align: center;
-  color: #040306;
+  color: #141414;
   margin-bottom: 8px;
 }
 
-.customer-text {
+.card-text {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: rgba(4, 3, 6, 0.4);
-}
-
-@media screen and (min-width: 768px) {
-  .reviews {
-    max-width: 768px;
-  }
-
-  .reviews-wrap {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
-.reviews-description {
-  width: 553px;
-  margin-bottom: 50px;
-}
-
-.reviews-title {
-  font-size: 64px;
-  line-height: 1;
-  margin-bottom: 25px;
-}
-
-.reviews-text {
   font-size: 16px;
-  line-height: 1.25;
+  line-height: 140%;
+  text-align: center;
+  color: rgba(20, 20, 20, 0.4);
 }
 
-.reviews-list {
-  flex-direction: row;
-  gap: 18px;
-  justify-content: center;
-}
-
-.reviews-item:nth-child(2n) {
-  display: block;
-}
-
-.reviews-item {
-  max-width: calc((100% - 18px) / 2);
-  padding: 20px;
-}
-
-.customer {
-  padding: 100px 20px 20px 20px;
-}
-
-.customer-name {
-  font-size: 18px;
-  line-height: 1.1;
-}
-
-.customer-text{
-font-size: 16px;
-line-height: 1.4;
-color: rgba(20, 20, 20, 0.4);
-}
-}
-
-@media screen and (min-width: 1280px) {
-  .reviews {
-    max-width: 1280px;
-  }
-
-  .reviews-wrap {
-    padding: 100px;
-  }
-
-  .reviews-list {
-    gap: 25px;
-  }
-
-  .reviews-item:last-child {
-    display: block;
-  }
-
-  .reviews-item {
-    max-width: calc((100% - 50px) / 3);
-  }
-}
-
-@media screen and (max-width: 374px) {
-  .reviews {
+/* Для мобильных устройств до 375px */
+@media screen and (max-width: 375px) {
+  .swiper-slide {
     width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+/* Для широких экранов шире 768px */
+/* Для широких экранов шире 768px */
+/* Для широких экранов шире 768px */
+@media screen and (min-width: 768px) {
+  .rewiews {
+    max-width: 768px;
+
+    margin: 0 auto;
+    padding: 100px 32px;
+  }
+  .reviews-header {
+    max-width: 553px;
+    margin: 0;
+  }
+  .reviews-title {
+    font-size: 64px;
+    margin-bottom: 25px;
   }
   .reviews-description {
-    width: 100%;
+    font-size: 14px;
+    margin-bottom: 50px;
   }
-  .reviews-item:last-child,
-  .reviews-item:nth-child(2n) {
-    display: none;
+}
+@media screen and (min-width: 1280px) {
+  .rewiews {
+    max-width: 1280px;
+
+    margin: 0 auto;
+    padding: 100px;
   }
-  .customer {
-    width: 100%;
+  .reviews-description {
+    font-size: 16px;
+    margin-bottom: 50px;
   }
 }
