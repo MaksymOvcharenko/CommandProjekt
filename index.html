@@ -26,7 +26,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="module" crossorigin src="/CommandProjekt/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/CommandProjekt/assets/index-88ff6d0d.css">
+    <link rel="stylesheet" href="/CommandProjekt/assets/index-3e3f0753.css">
   </head>
   <body>
     <header class="header">
@@ -308,9 +308,81 @@
 </section>
 
     <section class="order">
-  <div class="container"><h1>Order</h1></div>
-</section>
+  <div class="container order-container">
+    <h2 class="order-title">Fresh <span class="title-harvest">Harvest</span> Box has got you covered</h2>
+    <p class="text-discribe">Our boxes are packed with delicious, nutritious vegetables, perfect for anyone looking to eat healthier or support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
 
+
+    <div class="order-div-links">
+      <div class="order-div">
+        <p class="title-form">Ordering <span class="form-us">from us</span> is quick and easy! Fill out <span class="the-form">the form</span> below and we will contact you !</p>
+        <form class="order-form">
+  
+        
+            <div class="input-text">
+              <input type="text" placeholder="Full Name" name="user-name" class="info-input" id="user-name" />
+            </div>
+          
+            <div class="input-text">
+              <input class="info-input valid-email" type="email" name="email" placeholder="Email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required/>
+                <p class="text-valid">Succes!</p>
+                <p class="text-invalid">Invalid email, try again</p>
+            </div>
+          
+          <div class="textarea">
+            <textarea name="user-comment" id="user-comment" rows="6" class="textarea-input" placeholder="Comment"></textarea>
+          </div>
+    
+          <button type="submit" class="send-button">Send</button>
+        </form>
+      </div>
+  
+      <div class="order-links">
+        <picture>
+          <source media="(min-width: 1280px)" srcset="/CommandProjekt/assets/order-desk-4f38f65b.jpg 1x, /CommandProjekt/assets/order-desk@2x-1c085cdd.jpg 2x"/>
+          <source media="(min-width: 768px)" srcset="/CommandProjekt/assets/order-tab-7ff32552.jpg 1x, /CommandProjekt/assets/order-tab@2x-787e95ae.jpg 2x"/>
+          <source media="(max-width: 767px)" srcset="/CommandProjekt/assets/order-mob-00bb9db9.jpg 1x, /CommandProjekt/assets/order-mob@2x-06f2bb1d.jpg 2x"/>
+          
+          <img
+                  srcset="/CommandProjekt/assets/order-mob-00bb9db9.jpg 1x, /CommandProjekt/assets/order-mob-00bb9db9.jpg 2x"
+                  src="/CommandProjekt/assets/order-mob-00bb9db9.jpg"
+                  alt="Fresh vegetables "
+                  width="295"
+                  class="img-order"
+                />
+        </picture>
+  
+  
+        <div class="links-block">
+          <p class="soc-net">Follow us on our social networks:</p>
+          <ul class="soc-links-follow">
+            <li class="inst-fac-yout">
+              <a href="https://www.instagram.com/goitclub/"
+                target="_blank"
+                class="soc-link">instagram</a>
+            </li>
+  
+              <span class="slash">/</span>
+  
+            <li class="inst-fac-yout">
+              <a href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              class="soc-link">facebook</a>
+            </li>
+  
+              <span class="slash">/</span>
+  
+            <li class="inst-fac-yout">
+              <a href="https://www.youtube.com/c/GoIT"
+                target="_blank"
+                class="soc-link">youtube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <footer class="footer">
   <div class="container"><h1>footer</h1></div>
