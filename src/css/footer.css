@@ -178,7 +178,10 @@ height: 479px;
     width: 265px;
     height: 146px;
   }
-
+.footer-menu{
+  display: flex;
+  flex-direction: row;
+}
 
   .footer-contacts-link {
     margin-left: 121px;
@@ -193,7 +196,7 @@ height: 479px;
     height: 85px;
   }
  .footer-privacy {
-  padding-top: 125px;
+  padding-top: 50px 100px;
    gap: 700px;
     }
  .footer-list{
