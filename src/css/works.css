@@ -5,6 +5,12 @@
 .works {
   display: flex;
   flex-direction: column;
+  background: rgb(122, 49, 69);
+  background: linear-gradient(
+    180deg,
+    rgba(122, 49, 69, 1) 44.76%,
+    rgba(87, 111, 53, 1) 45%
+  );
 }
 
 .image-box {
@@ -14,7 +20,6 @@
   padding: 40px 20px;
   width: 100vw;
   height: 530px;
-  background-color: #7a3145;
 }
 
 .image-container {
@@ -42,7 +47,6 @@
 .works-order {
   display: flex;
   flex-direction: column;
-  background-color: #576f35;
   width: 100vw;
   height: 654px;
   padding: 80px 20px;
@@ -138,6 +142,13 @@
 }
 
 @media screen and (min-width: 768px) {
+  .works {
+    background: linear-gradient(
+      180deg,
+      rgba(122, 49, 69, 1) 54.58%,
+      rgba(87, 111, 53, 1) 45.42%
+    );
+  }
   .image-box {
     padding: 100px 64px;
     width: 768px;
@@ -186,6 +197,13 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .works {
+    background: linear-gradient(
+      90deg,
+      rgba(122, 49, 69, 1) 49.22%,
+      rgba(87, 111, 53, 1) 41.78%
+    );
+  }
   .work {
     display: flex;
     flex-direction: row;
