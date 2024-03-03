@@ -13,10 +13,8 @@ a {
   top: 20px;
   height: 32px;
   position: absolute;
-  display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  left: 50%;
+  transform: translatex(-50%);
 }
 
 .header .container {
@@ -279,7 +277,6 @@ color: #7a3145;
   .header {
     height: 52px;
     width: 100%;
-    
   }
     .header .container {
       width: 1280px;
@@ -290,7 +287,6 @@ color: #7a3145;
       display: flex;
       gap: 8px;
       margin-left: 387px;
-      
     }
   
     .svg-header-menu {
@@ -305,7 +301,6 @@ color: #7a3145;
     .button {
       display: flex;
       align-items: center;
-      justify-content: center;
       border-radius: 30px;
       padding: 16px 32px;
       height: 52px;
@@ -319,7 +314,6 @@ color: #7a3145;
       text-transform: uppercase;
       color: #fbfbfb;
       margin-left: 20px;
-      padding: 16px 32px 16px 32px;
     }
   
     .button:focus,
