@@ -1,9 +1,10 @@
 .order .container {
   background-color: #7A3145;
+  padding: 80px 20px;
 }
 
-.order-container{
-  padding: 80px 20px;
+.order{
+  background-color: #7A3145;
 }
 
 .order-title {
