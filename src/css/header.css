@@ -13,8 +13,10 @@ a {
   top: 20px;
   height: 32px;
   position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .header .container {
@@ -84,6 +86,7 @@ a {
   text-align: center;
   color: #fbfbfb;
   background-color: transparent;
+  flex: none;
 }
 
 .nav-li:focus,
@@ -238,6 +241,14 @@ color: #7a3145;
     height: 40px;
     width: 768px;
   }
+  .icon-logo {
+    width: 18px;
+      height: 18px;
+  }
+  .logo-header {
+    width: 168px;
+      height: 15px;
+  }
 
   .mob-menu {
     max-width: 351px;
@@ -252,13 +263,23 @@ color: #7a3145;
   .btn-close {
     top: 32px;
     right: 32px;
+    
   }
+    .mob-btn:hover,
+    .mob-btn:focus {
+      border: 1px solid rgba(251, 251, 251, 0.2);
+      background: #fbfbfb;
+      text-transform: uppercase;
+      color: rgba(122, 49, 69, 0.7);
+      
+      }
 }
 
 @media screen and (min-width: 1280px) {
   .header {
     height: 52px;
     width: 100%;
+    
   }
     .header .container {
       width: 1280px;
@@ -268,7 +289,8 @@ color: #7a3145;
     .ul-nav {
       display: flex;
       gap: 8px;
-      margin-left: 397px;
+      margin-left: 387px;
+      
     }
   
     .svg-header-menu {
@@ -283,8 +305,10 @@ color: #7a3145;
     .button {
       display: flex;
       align-items: center;
+      justify-content: center;
       border-radius: 30px;
       padding: 16px 32px;
+      height: 52px;
       border: none;
       background: #7a3145;
       font-family: 'Inter Tight', sans-serif;
@@ -295,6 +319,7 @@ color: #7a3145;
       text-transform: uppercase;
       color: #fbfbfb;
       margin-left: 20px;
+      padding: 16px 32px 16px 32px;
     }
   
     .button:focus,
