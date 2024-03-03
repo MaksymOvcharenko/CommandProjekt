@@ -1,5 +1,4 @@
 .hero {
-  max-width: 375px;
   background-color: #576f35;
   margin: 0 auto;
 }
@@ -59,7 +58,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    max-width: 768px;
+    min-width: 768px;
   }
 
   .hero-description {
@@ -100,7 +99,7 @@
 
 @media screen and (min-width: 1280px) {
   .hero {
-    max-width: 1280px;
+    min-width: 1280px;
   }
 
   .hero-wrap {
@@ -123,21 +122,30 @@
   }
 
   .hero-img {
-    background-image: linear-gradient(rgba(20, 20, 20, 0.2),
-        rgba(20, 20, 20, 0.2)),
-      url(../img/hero/hero-dt.jpg);
-    height: 800px;
-  }
-
-  @media screen and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .hero-img {
-      background-image: linear-gradient(rgba(20, 20, 20, 0.2),
-          rgba(20, 20, 20, 0.2)),
-        url(../img/hero/hero-dt-2x.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: rgba(0, 0, 0, 0);
+      background-image: url(../img/hero/hero-dt.jpg);
+      background-attachment: scroll;
+      min-width: 50.8%;
+      height: 800px;
+      width: 50%;
     }
-  }
+  
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      .hero-img {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url(../img/hero/hero-dt-2x.jpg);
+        background-attachment: scroll;
+        min-width: 50.8%;
+        height: 800px;
+        width: 50%;
+      }
+    }
 }
 
 @media screen and (max-width: 374px) {
