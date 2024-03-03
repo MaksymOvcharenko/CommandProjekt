@@ -96,7 +96,7 @@ a {
   display: none;
 }
 
-.button-nav {}
+
 
 .open-menu {
   background-color: transparent;
@@ -104,17 +104,16 @@ a {
 }
 
 .mob-menu {
-    padding-right: 110px;
+  padding-right: 110px;
   padding-bottom: 40px;
   padding-left: 110px;
-  position: absolute;
-  bottom: ;
+  position: absolute;  
   overflow: auto;
-  top: 0;
+  top: -130%;
   left: 0;
+  height: 100vh;
   z-index: 1;
-  width: 100%;
-  height: 100vw;
+  width: 100%;  
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -182,6 +181,10 @@ a {
   color: #fbfbfb;
   background-color: transparent;
 }
+.mob-nav.loop {
+color: #7a3145;
+  background-color: #fbfbfb;
+}
 
 .mob-nav:focus,
 .mob-nav:hover {
@@ -194,8 +197,8 @@ a {
   align-items: center;
   border-radius: 30px;
   padding: 16px 41px;
-  width: 155px;
-  height: 50px;
+  width: 157px;
+  height: 52px;
   background: #fbfbfb;
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
@@ -238,8 +241,8 @@ a {
 
   .mob-menu {
     max-width: 351px;
-    right: 0px;
-    left: auto;
+    left: 417px;
+    height: 1024px;
   }
 
   .tab-background {
