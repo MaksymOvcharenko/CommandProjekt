@@ -1,7 +1,6 @@
 .footer .container {
   padding: 0;
-  position: relative;
-  bottom: 1px;
+  
 }
 .footer {
   background: #7a3145;
@@ -239,4 +238,6 @@
 }
 .footer-bg {
   background-color: #7a3145;
+position: relative;
+  bottom: 1px;
 }
